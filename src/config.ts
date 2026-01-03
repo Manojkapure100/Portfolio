@@ -95,21 +95,23 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 MANOJ KAPURE",
-  title: "A Software engineer at 🌼 BBD",
+  name: "MANOJ KAPURE",
+  title: "A software engineer at BBD",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
+    "I’m always looking for exciting opportunities to collaborate, learn, and grow. Feel free to reach out, and let’s connect! Whether you're looking for a developer, sharing knowledge, or simply curious about my work, I'm happy to chat!",
+    // "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
+    // "A passionate software engineer specializing in full-stack development. I craft innovative and user-friendly web applications that solve real-world problems. Currently, I am working with BBD, where I use cutting-edge technologies to build impactful solutions. Explore my work and let's connect!",
   avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 India",
+  location: "🇮🇳 India",
   email: "manojkapure100@gmail.com",
   socialLinks: {
-    github: "https://github.com/lauroguedes",
-    linkedin: "https://linkedin.com/in/lauroguedes",
-    twitter: "https://twitter.com/leowg",
-    bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
-    instagram: "https://instagram.com/lauroguedes.dev",
-    youTube: "https://youtube.com/leowgweb",
-    codetips: "https://codetips.cloud/u/lauroguedes",
+    github: "https://github.com/Manojkapure100",
+    linkedin: "https://www.linkedin.com/in/manoj-kapure/",
+    twitter: "https://x.com/ManojKapure_100",
+    // bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
+    instagram: "https://www.instagram.com/manoj.kapure_/",
+    youTube: "https://www.youtube.com/channel/UCeX_oTub6c7PkvEZqG3Q-Eg",
+    // codetips: "https://codetips.cloud/u/lauroguedes",
   },
   enableThemeSelector: true,
   extraLinks: {

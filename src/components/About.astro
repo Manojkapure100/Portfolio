@@ -5,9 +5,10 @@ interface Props {
   title: string;
   photo?: string;
   Content: any;
+  Link?: string;
 }
 
-const { title, photo, Content } = Astro.props;
+const { title, photo, Content, Link } = Astro.props;
 ---
 
 <section id="about" class="py-20 px-4">
@@ -28,7 +29,7 @@ const { title, photo, Content } = Astro.props;
         <div class="card-actions justify-end">
           <div class="tooltip" data-tip="More about me">
             <a
-              href="https://linkedin.com/in/lauroguedes"
+              href={Link}
               target="_blank"
               class="btn btn-primary"
             >
