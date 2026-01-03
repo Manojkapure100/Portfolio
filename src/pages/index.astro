@@ -10,7 +10,8 @@ import Contact from "../components/Contact.astro";
 import { Briefcase, GraduationCap } from "@lucide/astro";
 import { getEntry, render } from "astro:content";
 import { siteConfig } from "../config";
-import bloomfolioLogo from "../assets/bloomfolio.png";
+import logoImage from "../assets/me.png";
+import aboutMeImage from "../assets/me3.png";
 
 // Load about content
 const aboutEntry = await getEntry("about", "about");
@@ -27,7 +28,7 @@ const { Content: AboutContent } = await render(aboutEntry);
       name={siteConfig.name}
       title={siteConfig.title}
       description={siteConfig.description}
-      avatar={bloomfolioLogo}
+      avatar={logoImage}
       location={siteConfig.location}
       socialLinks={siteConfig.socialLinks}
     />
@@ -37,7 +38,7 @@ const { Content: AboutContent } = await render(aboutEntry);
       siteConfig.sections.about && (
         <About
           title={aboutEntry.data.title}
-          photo={aboutEntry.data.photo}
+          photo={aboutMeImage}
           Content={AboutContent}
           Link={siteConfig.socialLinks.twitter}
         />

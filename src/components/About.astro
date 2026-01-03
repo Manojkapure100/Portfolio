@@ -1,9 +1,10 @@
 ---
 import { Plus } from "@lucide/astro";
+import { Image } from "astro:assets";
 
 interface Props {
   title: string;
-  photo?: string;
+  photo?: any;
   Content: any;
   Link?: string;
 }
@@ -17,7 +18,8 @@ const { title, photo, Content, Link } = Astro.props;
       {
         photo && (
           <figure class="shrink-0 w-48">
-            <img src={photo} alt={title} />
+            <Image src={photo} alt={title} />
+            {/* <img src={photo} alt={title} /> */}
           </figure>
         )
       }
