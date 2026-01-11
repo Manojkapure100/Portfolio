@@ -1,0 +1,151 @@
+/**
+ * Site Configuration
+ *
+ * This file contains all the configuration settings for the Bloomfolio template.
+ * Update these values to personalize your portfolio site.
+ */
+
+import { BookOpen, FileText, Flower2, CodeXml } from "@lucide/astro";
+import { Code } from "astro:components";
+
+/**
+ * Social media links configuration
+ */
+export interface SocialLinks {
+  github?: string;
+  linkedin?: string;
+  twitter?: string;
+  bluesky?: string;
+  instagram?: string;
+  youTube?: string;
+  codetips?: string;
+}
+
+/**
+ * Extra link configuration for FAB component
+ */
+export interface ExtraLink {
+  /** URL or path for the link */
+  link: string;
+  /** Lucide icon component */
+  icon: any;
+  /** Tooltip label for the link */
+  label: string;
+}
+
+/**
+ * Extra links configuration
+ */
+export interface ExtraLinks {
+  /** Enable or disable the FAB component */
+  enable: boolean;
+  /** Array of extra links to display */
+  links: ExtraLink[];
+}
+
+/**
+ * Sections visibility configuration
+ * Control which sections appear on the index page
+ */
+export interface SectionsConfig {
+  /** Show/hide About section */
+  about: boolean;
+  /** Show/hide Projects section */
+  projects: boolean;
+  /** Show/hide Blog section */
+  blog: boolean;
+  /** Show/hide Work Experience section */
+  work: boolean;
+  /** Show/hide Education section */
+  education: boolean;
+  /** Show/hide Hackathons section */
+  hackathons: boolean;
+  /** Show/hide Contact section */
+  contact: boolean;
+}
+
+/**
+ * Main site configuration interface
+ */
+export interface SiteConfig {
+  /** Site/Portfolio name */
+  name: string;
+  /** Main title/headline */
+  title: string;
+  /** Site description for SEO and hero section */
+  description: string;
+  /** Path to avatar/logo image */
+  avatar: string;
+  /** Location/City */
+  location: string;
+  /** Contact email */
+  email: string;
+  /** Social media profile links */
+  socialLinks: SocialLinks;
+  /** Enable ThemeSelector (dropdown) instead of ThemeToggle (checkbox) */
+  enableThemeSelector: boolean;
+  /** Extra links configuration for FAB component */
+  extraLinks: ExtraLinks;
+  /** Sections visibility configuration (Hero is always visible) */
+  sections: SectionsConfig;
+}
+
+/**
+ * Site configuration object
+ * Update these values to customize your portfolio
+ */
+export const siteConfig: SiteConfig = {
+  name: "MANOJ KAPURE",
+  title: "A software engineer",
+  description:
+    "I’m always looking for exciting opportunities to collaborate, learn, and grow. Feel free to reach out, and let’s connect! Whether you're looking for a developer, sharing knowledge, or simply curious about my work, I'm happy to chat!",
+    // "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
+    // "A passionate software engineer specializing in full-stack development. I craft innovative and user-friendly web applications that solve real-world problems. Currently, I am working with BBD, where I use cutting-edge technologies to build impactful solutions. Explore my work and let's connect!",
+  avatar: "../assets/bloomfolio.png",
+  location: "🇮🇳 India",
+  email: "manojkapure100@gmail.com",
+  socialLinks: {
+    github: "https://github.com/Manojkapure100",
+    linkedin: "https://www.linkedin.com/in/manoj-kapure/",
+    twitter: "https://x.com/ManojKapure_100",
+    // bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
+    instagram: "https://www.instagram.com/manoj.kapure_/",
+    // youTube: "https://www.youtube.com/channel/UCeX_oTub6c7PkvEZqG3Q-Eg",
+    // codetips: "https://codetips.cloud/u/lauroguedes",
+  },
+  enableThemeSelector: true,
+  extraLinks: {
+    enable: false,
+    links: [
+      {
+        link: "/blog/guides/bloomfolio-complete-guide",
+        icon: Flower2,
+        label: "Bloomfolio Guide",
+      },
+      {
+        link: "/blog/guides/content-collections-guide",
+        icon: BookOpen,
+        label: "Content Guide",
+      },
+      {
+        link: "/blog/guides/markdown-guide",
+        icon: FileText,
+        label: "Markdown Guide",
+      },
+      {
+        link: "https://github.com/lauroguedes/bloomfolio",
+        icon: CodeXml,
+        label: "GitHub Repo",
+      },
+    ],
+  },
+  sections: {
+    about: true,
+    projects: false,
+    blog: false,
+    work: true,
+    education: true,
+    hackathons: true,
+    contact: true,
+  },
+};
