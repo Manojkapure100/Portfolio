@@ -7,4 +7,4 @@ endDate: "2018-06-01"
 link: "https://www.facebook.com/groups/madresanvs/about"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+<!-- Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions. -->

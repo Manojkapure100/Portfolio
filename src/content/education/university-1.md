@@ -7,4 +7,4 @@ endDate: "2023-06-01"
 link: "https://www.vnsgu.ac.in/departments/dcs/"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+<!-- Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions. -->
