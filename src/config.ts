@@ -96,7 +96,7 @@ export interface SiteConfig {
  */
 export const siteConfig: SiteConfig = {
   name: "MANOJ KAPURE",
-  title: "A software engineer at BBD",
+  title: "A software engineer",
   description:
     "I’m always looking for exciting opportunities to collaborate, learn, and grow. Feel free to reach out, and let’s connect! Whether you're looking for a developer, sharing knowledge, or simply curious about my work, I'm happy to chat!",
     // "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",

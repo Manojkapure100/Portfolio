@@ -9,10 +9,10 @@ link: "https://bbdsoftware.com/who-we-are/"
 
 During my time as a Junior Software Engineer at BBD India, I worked as a full-stack developer on several high-impact projects, contributing to both internal and client websites.
 
-I played a key role in enhancing the company’s internal website **The Hive**, which included developing a platform to train new employees, and creating courses for upskilling. I also contributed to the **annual review system**, improving its functionality and performance.
+I played a key role in enhancing the company’s internal learning platform, which included developing a training system for new employees and creating upskilling courses. I also contributed to the annual review system, improving its functionality and performance.
 
-One of my major achievements was building a **profile feature** that displays employee details, including their photos, departments, experiences, and skills, streamlining internal collaboration and communication.
+One of my major achievements was building a profile feature that displays employee details, including photos, departments, experience, and skills, streamlining internal collaboration and communication.
 
-Later, I transitioned to working on **SARS**, where I resolved several **production-critical bugs**, ensuring smooth operations for the company. I then moved to **DSTI**, where I optimized database queries, added new features, and enhanced API performance to improve both user and developer experiences.
+Later, I transitioned to work on a client-facing system where I resolved production-critical bugs to ensure smooth operations. I then moved to a data-focused project, where I optimized database queries, added new features, and enhanced API performance to improve both user and developer experiences.
 
-Currently, I am working on **both** SARS and DSTI, handling multiple projects simultaneously, resolving bugs, optimizing performance, and developing new features.
+Currently, I work across multiple active projects, handling bugs, optimizing performance, and developing new features.

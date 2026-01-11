@@ -11,4 +11,4 @@ During my internship at BBD India, I had the opportunity to work on intenship pr
 
 I also led a presentation on **CI/CD pipelines using Jenkins**, providing the team with insights on automating and optimizing our deployment processes.
 
-Additionally, I contributed to the live project **SHYFT**, where I focused on resolving frontend bugs, ensuring a seamless user experience and improving overall project quality.
+Additionally, I contributed to a live client project, where I focused on resolving frontend bugs, ensuring a seamless user experience and improving overall project quality.
