@@ -110,12 +110,12 @@ export const siteConfig: SiteConfig = {
     twitter: "https://x.com/ManojKapure_100",
     // bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
     instagram: "https://www.instagram.com/manoj.kapure_/",
-    youTube: "https://www.youtube.com/channel/UCeX_oTub6c7PkvEZqG3Q-Eg",
+    // youTube: "https://www.youtube.com/channel/UCeX_oTub6c7PkvEZqG3Q-Eg",
     // codetips: "https://codetips.cloud/u/lauroguedes",
   },
   enableThemeSelector: true,
   extraLinks: {
-    enable: true,
+    enable: false,
     links: [
       {
         link: "/blog/guides/bloomfolio-complete-guide",
@@ -141,8 +141,8 @@ export const siteConfig: SiteConfig = {
   },
   sections: {
     about: true,
-    projects: true,
-    blog: true,
+    projects: false,
+    blog: false,
     work: true,
     education: true,
     hackathons: true,
