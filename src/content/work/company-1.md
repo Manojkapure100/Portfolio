@@ -1,7 +1,6 @@
 ---
 title: "BBD India"
 subtitle: "Junior Software engineer"
-logo: "https://media.licdn.com/dms/image/v2/C4D0BAQE8eB2pUmjN0Q/company-logo_200_200/company-logo_200_200/0/1655465718832/bbd_logo?e=1769040000&v=beta&t=30UGzRrTfVlRFhz9_Jvd56BWp2fIX2IWG23DIFvJKZg"
 startDate: "2023-07-01"
 # endDate: "2024-01-01"
 link: "https://bbdsoftware.com/who-we-are/"
